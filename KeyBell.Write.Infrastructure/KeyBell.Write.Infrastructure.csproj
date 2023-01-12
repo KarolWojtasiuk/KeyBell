@@ -1,5 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <ItemGroup>
-        <ProjectReference Include="..\KeyBell.Write.Domain\KeyBell.Write.Domain.csproj"/>
+        <ProjectReference Include="..\KeyBell.Write.Domain\KeyBell.Write.Domain.csproj" />
     </ItemGroup>
 </Project>

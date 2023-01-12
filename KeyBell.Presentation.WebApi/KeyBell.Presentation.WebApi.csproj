@@ -1,2 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
+    <ItemGroup>
+        <PackageReference Include="BouncyCastle.OpenPGP" />
+        <PackageReference Include="Swashbuckle.AspNetCore" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Update="key.gpg" CopyToOutputDirectory="PreserveNewest" />
+    </ItemGroup>
 </Project>
